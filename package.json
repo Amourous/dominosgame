@@ -1,0 +1,17 @@
+{
+  "name": "egyptian-dominos",
+  "version": "1.0.0",
+  "description": "Egyptian Dominoes - Classic domino game with Singles and Teams modes",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "keywords": ["dominoes", "game", "egyptian"],
+  "author": "Amourous",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^41.1.0"
+  }
+}
