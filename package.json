@@ -1,6 +1,6 @@
 {
   "name": "egyptian-dominos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Egyptian Dominoes - Classic domino game with Singles and Teams modes",
   "main": "main.js",
   "scripts": {
