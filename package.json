@@ -11,9 +11,21 @@
   "build": {
     "appId": "com.amourous.dominos",
     "productName": "Egyptian Dominoes",
+    "compression": "maximum",
+    "publish": [
+      "github"
+    ],
     "directories": {
       "output": "dist"
     },
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*",
+      "!src/assets/raw_sources/**/*",
+      "package.json",
+      "node_modules/**/*"
+    ],
     "win": {
       "target": [
         "nsis"
@@ -24,7 +36,8 @@
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
-      "shortcutName": "Egyptian Dominoes"
+      "shortcutName": "Egyptian Dominoes",
+      "differentialPackage": false
     }
   },
   "keywords": [
